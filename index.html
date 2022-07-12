@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Guess Me!</title>
+		<link rel="stylesheet" type="text/css" href="mainJs/style.css">
+	</head>
+	<body>
+		<center>
+			<div>
+				<h4 style="background-color: black;" id="display">Введите число от 1 до 10!</h4>
+
+				<h1 style='font-size:30px; color: white;' id="win_display">&#128081;<br>Поздравляю!</h1>
+				<h1 style='font-size:30px; color: white;' id="lose_display">&#128557;<br>Ты проиграл!</h1>
+				<input type="number" id="input_num" name="" placeholder="">
+				<br>
+				<button class="button-52" id="restart_btn" onclick="restartgame()">Перезапустить</button>
+				<button class="button-52" id="enter_btn" onclick="guess()">Проверить</button>
+				<br>
+					<h4 id="total_guess">У тебя есть только попыток 3.</h4>
+				<br>
+				<h4 style="background-color: seagreen;margin: 20px;" id="last_guess"></h4>
+			</div>
+		</center>
+		<script type="text/javascript" src="mainJs/script.js"></script>
+	</body>
+</html>

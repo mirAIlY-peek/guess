@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(90deg, red, white);
+    height: 100%;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    font-family: sans-serif;
+    color: floralwhite;
+    background: green;
+    padding: 8px;
+}
+
+h4 {
+    display: table;
+    text-align: center;
+    margin: 50px;
+    font-family: sans-serif;
+    color: floralwhite;
+    background: indianred;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+input {
+    height: 6px;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    border-width: 8px;
+    font-family: fantasy;
+    border-color: greenyellow;
+    text-align: center;
+}
+
+/* CSS */
+.button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-52:after {
+    content: "";
+    background-color: greenyellow;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.button-52:hover:after {
+    top: 0;
+    left: 0;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .button-52 {
+
+        padding: 13px 50px 13px;
+
+    }
+}
